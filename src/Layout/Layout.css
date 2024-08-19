@@ -1,0 +1,23 @@
+.LayoutBody{
+    height: max-content;
+    /* min-height: 100vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgba(255, 255, 255, 0.719);
+
+}
+
+.LayoutContainer{
+    width: 100vw;
+    height:max-content;
+    /* min-height: 90vh; */
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px; */
+    /* position: relative; */
+}

@@ -1,0 +1,73 @@
+.Hero{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.521);
+
+    @media (max-width:320px) {
+padding-left: 60px;  
+    }
+}
+
+.HeroLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    color: white;
+
+    & h1{
+        font-size: 50px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+        @media (max-width:320px) {
+          font-size: 40px;   
+        }
+    }
+
+
+    & span{
+        color: green;
+        font-style: italic;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        animation: colorChange 10s infinite ease-in-out;
+    }
+
+    @media (max-width:320px) {
+      width: 50%; 
+    }
+}
+
+  @keyframes colorChange {
+           
+                0% {
+                  color: red;
+                }
+                20% {
+                  color: green;
+                }
+                40% {
+                   color: blue;
+                }
+                60% {
+                 color: red;
+                }
+                100% {
+                  color: blue;
+                }
+            }
+ .HeroRight{
+    width: 40%;
+    height: 100%;
+
+    & img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    } 
+} 
