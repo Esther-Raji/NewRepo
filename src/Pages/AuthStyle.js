@@ -94,25 +94,33 @@ export const TextHeader = styled.div`
 export const SignUpFrom = styled.form`
   width: 100%;
   height: 100%;
-  /* max-height:350px; */
   background:white;
-    /* backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border-radius: 20px; */
   padding: 30px;
   display: flex;
   flex-direction: column;
   align-items:center;
   gap: 15px;
+  
+
+  @media (max-width:320px) {
+        width:100%;
+    }
  `
 export const Wrapper = styled.div`
   width: 25%;
   height: 60%;
-  /* background:white; */
   display: flex;
   flex-direction:column;
   justify-content: center;
   align-items: center;
+  /* background:red; */
+  @media (max-width:768px) {
+        width:66%;
+    }
+
+  @media (max-width:360px) {
+        width:70%;
+    }
 `
 export const MainBody = styled.div`
 height:100vh;

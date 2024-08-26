@@ -15,6 +15,10 @@
 h2{
     display: flex;
     align-self: flex-start;
+
+    @media (max-width:320px) {
+        font-size:18px;
+    }
 }
 
 .ProductcardHolder{

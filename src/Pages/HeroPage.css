@@ -43,7 +43,7 @@ padding-left: 60px;
     }
 }
 
-  @keyframes colorChange {
+  /* @keyframes colorChange {
            
                 0% {
                   color: red;
@@ -60,7 +60,7 @@ padding-left: 60px;
                 100% {
                   color: blue;
                 }
-            }
+            } */
  .HeroRight{
     width: 40%;
     height: 100%;
