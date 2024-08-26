@@ -84,12 +84,14 @@ const initialState = {
 
         if(checkVendor !== -1){
           if(state.users.vendors[checkVendor].password !== payload.password){
+            alert('password incorrect')
             throw new Error('password incorrect')
           }else{
             state.loginInfo.isLoggedIn = true;
             state.loginInfo.loggedInUser = payload
           }
       }else{
+        alert('password incorrect')
         throw new Error('user not found check email')
       }
     },
