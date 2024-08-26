@@ -103,7 +103,7 @@ const initialState = {
             state.loginInfo.isLoggedIn = true;
             state.loginInfo.loggedInUser = payload
         }else{
-          alert('user not found check email')
+          alert('password incorrect')
           throw new Error('password incorrect')
 
         }
